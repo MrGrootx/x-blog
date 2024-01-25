@@ -10,7 +10,7 @@ const Error = () => {
       <h4>oops Page not found</h4>
       <div>
         <li>
-         <Link to={"/"} className="text-red-500 underline">return to home Page</Link>
+         <Link to="/" className="text-red-500 underline">return to home Page</Link>
         </li>
       </div>
     </div>

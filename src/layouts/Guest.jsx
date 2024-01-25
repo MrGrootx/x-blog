@@ -9,7 +9,7 @@ const GuestLayout = () => {
     <div>
       <TheNavbar />
       <div>
-        <Outlet />
+      <Outlet />
       </div>
     </div>
   );
