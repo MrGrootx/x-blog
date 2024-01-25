@@ -1,0 +1,304 @@
+{
+  "blogPosts": [
+    {
+      "id": 1,
+      "title": "Getting Started with Blogging",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...",
+      "author": "John Doe",
+      "date": "2024-01-25",
+      "image": "https://example.com/path-to-your-image/getting_started.jpg",
+      "category": "Blogging Basics",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "10 Tips for Effective Writing",
+      "content": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. ...",
+      "author": "Jane Smith",
+      "date": "2024-01-26",
+      "image": "https://example.com/path-to-your-image/effective_writing.jpg",
+      "category": "Writing Tips",
+      "featured": false
+    },
+    {
+      "id": 3,
+      "title": "The Importance of Regular Exercise",
+      "content": "Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. ...",
+      "author": "Robert Johnson",
+      "date": "2024-01-27",
+      "image": "https://example.com/path-to-your-image/exercise_importance.jpg",
+      "category": "Health and Fitness",
+      "featured": true
+    },
+    {
+      "id": 4,
+      "title": "Exploring Nature's Wonders",
+      "content": "Nulla facilisi. Sed feugiat, libero eu pellentesque tristique, ...",
+      "author": "Emily White",
+      "date": "2024-01-28",
+      "image": "https://example.com/path-to-your-image/nature_wonders.jpg",
+      "category": "Travel and Nature",
+      "featured": false
+    },
+    {
+      "id": 5,
+      "title": "Healthy Recipes for a Balanced Diet",
+      "content": "Vivamus ullamcorper, leo a gravida efficitur, ex justo suscipit velit, ...",
+      "author": "Michael Brown",
+      "date": "2024-01-29",
+      "image": "https://example.com/path-to-your-image/healthy_recipes.jpg",
+      "category": "Food and Cooking",
+      "featured": true
+    },
+    {
+      "id": 6,
+      "title": "Effective Time Management Strategies",
+      "content": "In hac habitasse platea dictumst. Sed ac arcu ac risus consectetur lacinia. ...",
+      "author": "Alice Green",
+      "date": "2024-01-30",
+      "image": "https://example.com/path-to-your-image/time_management.jpg",
+      "category": "Productivity",
+      "featured": false
+    },
+    {
+      "id": 7,
+      "title": "DIY Home Decor Ideas",
+      "content": "Integer nec mauris id justo ultricies fringilla. Proin nec nisi in augue accumsan laoreet. ...",
+      "author": "David Wilson",
+      "date": "2024-01-31",
+      "image": "https://example.com/path-to-your-image/home_decor.jpg",
+      "category": "Home and Living",
+      "featured": true
+    },
+    {
+      "id": 8,
+      "title": "Mindfulness Meditation for Beginners",
+      "content": "Duis et tortor nec odio varius lobortis. Morbi lacinia nulla nec lacus varius, sit amet consectetur neque eleifend. ...",
+      "author": "Sophia Taylor",
+      "date": "2024-02-01",
+      "image": "https://example.com/path-to-your-image/meditation.jpg",
+      "category": "Wellness",
+      "featured": true
+    },
+    {
+      "id": 9,
+      "title": "Tech Gadgets That Improve Productivity",
+      "content": "Fusce nec erat vel elit sagittis eleifend nec a justo. ...",
+      "author": "Daniel Miller",
+      "date": "2024-02-02",
+      "image": "https://example.com/path-to-your-image/tech_gadgets.jpg",
+      "category": "Technology",
+      "featured": false
+    },
+    {
+      "id": 10,
+      "title": "The Art of Storytelling",
+      "content": "Praesent vel tortor quis nunc iaculis mattis id vel libero. ...",
+      "author": "Olivia Clark",
+      "date": "2024-02-03",
+      "image": "https://example.com/path-to-your-image/storytelling.jpg",
+      "category": "Creative Writing",
+      "featured": true
+    },
+    {
+      "id": 11,
+      "title": "Budget-Friendly Travel Destinations",
+      "content": "Curabitur ullamcorper lacus sit amet ex rhoncus, in mollis lectus tincidunt. ...",
+      "author": "Benjamin Turner",
+      "date": "2024-02-04",
+      "image": "https://example.com/path-to-your-image/travel_budget.jpg",
+      "category": "Travel and Adventure",
+      "featured": false
+    },
+    {
+      "id": 12,
+      "title": "Gardening Tips for Beginners",
+      "content": "Suspendisse ac ligula vel nulla scelerisque luctus. ...",
+      "author": "Emma Harris",
+      "date": "2024-02-05",
+      "image": "https://example.com/path-to-your-image/gardening_tips.jpg",
+      "category": "Home and Living",
+      "featured": true
+    },
+    {
+      "id": 13,
+      "title": "The Impact of Artificial Intelligence on Society",
+      "content": "Aliquam erat volutpat. ...",
+      "author": "Christopher Lee",
+      "date": "2024-02-06",
+      "image": "https://example.com/path-to-your-image/ai_impact.jpg",
+      "category": "Technology",
+      "featured": false
+    },
+    {
+      "id": 14,
+      "title": "Delicious and Easy-to-Make Smoothie Recipes",
+      "content": "Donec vel justo nec velit cursus tincidunt. ...",
+      "author": "Sophie Robinson",
+      "date": "2024-02-07",
+      "image": "https://example.com/path-to-your-image/smoothie_recipes.jpg",
+      "category": "Food and Cooking",
+      "featured": true
+    },
+    {
+      "id": 15,
+      "title": "How to Choose the Right Fitness Program",
+      "content": "Vestibulum accumsan elit eu lacus varius tincidunt. ...",
+      "author": "William Turner",
+      "date": "2024",
+      "image": "https://example.com/path-to-your-image/smoothie_recipes.jpg",
+      "category": "Food and Cooking",
+      "featured": true
+    },
+    {
+      "id": 16,
+      "title": "Digital Photography Techniques",
+      "content": "Integer non quam at arcu faucibus lacinia. ...",
+      "author": "Eva Martinez",
+      "date": "2024-02-16",
+      "image": "https://example.com/path-to-your-image/digital_photography.jpg",
+      "category": "Photography",
+      "featured": false
+    },
+    {
+      "id": 17,
+      "title": "Benefits of Daily Journaling",
+      "content": "Sed eu dolor non arcu tincidunt bibendum. ...",
+      "author": "Victor Anderson",
+      "date": "2024-02-17",
+      "image": "https://example.com/path-to-your-image/journaling_benefits.jpg",
+      "category": "Self-Improvement",
+      "featured": true
+    },
+    {
+      "id": 18,
+      "title": "Latest Trends in Mobile App Development",
+      "content": "Aenean ullamcorper metus et metus auctor, a efficitur tortor sollicitudin. ...",
+      "author": "Isabella Carter",
+      "date": "2024-02-18",
+      "image": "https://example.com/path-to-your-image/app_development_trends.jpg",
+      "category": "Technology",
+      "featured": true
+    },
+    {
+      "id": 19,
+      "title": "Easy Home Workouts for Busy Professionals",
+      "content": "Fusce a justo nec dui dictum cursus eget in libero. ...",
+      "author": "Alex Turner",
+      "date": "2024-02-19",
+      "image": "https://example.com/path-to-your-image/home_workouts.jpg",
+      "category": "Health and Fitness",
+      "featured": false
+    },
+    {
+      "id": 20,
+      "title": "Creating Engaging Social Media Content",
+      "content": "Maecenas fringilla odio nec nunc venenatis, vel consequat elit euismod. ...",
+      "author": "Sophie Miller",
+      "date": "2024-02-20",
+      "image": "https://example.com/path-to-your-image/social_media_content.jpg",
+      "category": "Marketing",
+      "featured": true
+    },
+    {
+      "id": 21,
+      "title": "Mind-Blowing Science Facts",
+      "content": "Vivamus id purus vel ex hendrerit facilisis. ...",
+      "author": "Liam Harris",
+      "date": "2024-02-21",
+      "image": "https://example.com/path-to-your-image/science_facts.jpg",
+      "category": "Science",
+      "featured": false
+    },
+    {
+      "id": 22,
+      "title": "Quick and Healthy Breakfast Ideas",
+      "content": "Donec at urna ut nulla vestibulum sodales a eu ex. ...",
+      "author": "Ava Wilson",
+      "date": "2024-02-22",
+      "image": "https://example.com/path-to-your-image/healthy_breakfast.jpg",
+      "category": "Food and Cooking",
+      "featured": true
+    },
+    {
+      "id": 23,
+      "title": "Navigating the World of Cryptocurrencies",
+      "content": "Pellentesque non mi at enim vehicula elementum nec at erat. ...",
+      "author": "Gabriel Rodriguez",
+      "date": "2024-02-23",
+      "image": "https://example.com/path-to-your-image/cryptocurrency.jpg",
+      "category": "Finance",
+      "featured": true
+    },
+    {
+      "id": 24,
+      "title": "Home Office Setup Tips for Productivity",
+      "content": "Suspendisse potenti. Nullam ac purus eget enim tincidunt tincidunt. ...",
+      "author": "Nora Taylor",
+      "date": "2024-02-24",
+      "image": "https://example.com/path-to-your-image/home_office_setup.jpg",
+      "category": "Productivity",
+      "featured": false
+    },
+    {
+      "id": 25,
+      "title": "Exploring Uncharted Territories",
+      "content": "Aliquam ac ultricies est, vel hendrerit libero. ...",
+      "author": "Mason Turner",
+      "date": "2024-02-25",
+      "image": "https://example.com/path-to-your-image/uncharted_territories.jpg",
+      "category": "Travel and Adventure",
+      "featured": true
+    },
+    {
+      "id": 26,
+      "title": "The Power of Positive Thinking",
+      "content": "Maecenas interdum nunc nec justo fringilla, vel congue justo pharetra. ...",
+      "author": "Zoe Evans",
+      "date": "2024-02-26",
+      "image": "https://example.com/path-to-your-image/positive_thinking.jpg",
+      "category": "Self-Improvement",
+      "featured": true
+    },
+    {
+      "id": 27,
+      "title": "DIY Home Spa Ideas",
+      "content": "Nulla facilisi. Vestibulum eu diam vel quam scelerisque dictum. ...",
+      "author": "Max Robinson",
+      "date": "2024-02-27",
+      "image": "https://example.com/path-to-your-image/home_spa.jpg",
+      "category": "Self-Care",
+      "featured": false
+    },
+    {
+      "id": 28,
+      "title": "Building a Personal Brand Online",
+      "content": "Cras vel velit vel tellus bibendum tincidunt ac eu justo. ...",
+      "author": "Aria Martinez",
+      "date": "2024-02-28",
+      "image": "https://example.com/path-to-your-image/personal_brand.jpg",
+      "category": "Marketing",
+      "featured": true
+    },
+    {
+      "id": 29,
+      "title": "The Future of Virtual Reality",
+      "content": "Vivamus auctor orci sit amet sapien feugiat, a vulputate velit fermentum. ...",
+      "author": "Ethan Turner",
+      "date": "2024-02-29",
+      "image": "https://example.com/path-to-your-image/virtual_reality.jpg",
+      "category": "Technology",
+      "featured": false
+    },
+    {
+      "id": 30,
+      "title": "Impress Your Guests with Gourmet Cooking",
+      "content": "Proin vitae tortor nec augue posuere consequat. ...",
+      "author": "Clara Rodriguez",
+      "date": "2024-03-01",
+      "image": "https://example.com/path-to-your-image/gourmet_cooking.jpg",
+      "category": "Food and Cooking",
+      "featured": true
+    }
+  ]
+}
