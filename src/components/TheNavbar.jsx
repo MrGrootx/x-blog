@@ -8,9 +8,10 @@ import profile from "../assets/img/profile.png";
 
 const TheNavbar = () => {
   return (
-    <nav className="bg-ctm3 p-5 border">
-      <div className="sm:flex sm:justify-between items-center justify-center">
-        <div className="flex justify-center items-center gap-x-2 ">
+    <nav className="bg-ctm3 p-5 border wf">
+
+      <div className="sm:flex sm:justify-between items-center justify-end">
+        <div className="flex justify-center items-center gap-x-2">
           <img src={logo} alt="logo" className="w-8" />
           <h3 className="font-Viga text-2xl">Blog</h3>
         </div>
@@ -24,11 +25,13 @@ const TheNavbar = () => {
         </div>
 
         {/* icons */}
-        <div className="md:px-0 flex justify-between items-center p-3 sm:p-0 ">
-          <ul className="text-ctm2 flex md:gap-x-3 gap-x-3 md:mt-0 justify-center items-center my-auto  mt-auto ">
-            <div className="relative flex items-center">
-              <div className="items-center flex ">
-                <IoSearch className="w-5 h-5 absolute  ml-2 text-gray-400 focus-within:text-gray-600 pointer-events-none" />
+        <div className="md:px-0 flex justify-between items-center mt-1 sm:p-0 ">
+          <ul className="text-ctm2 flex gap-x-3 md:mt-0 justify-center items-center my-auto  mt-auto">
+            <div className="relative flex items-center ">
+
+            <div className="hidden sm:block">
+            <div className="items-center  flex ">
+                <IoSearch className="w-5 h-5 absolute  ml-2 text-gray-400 focus-within:text-gray-600 pointer-events-none " />
                 <input
                   type="text"
                   className="outline-none border-none rounded bg-ctm1 px-3 pr-3 pl-8 py-1 "
@@ -36,6 +39,8 @@ const TheNavbar = () => {
                   placeholder="Search"
                 />
               </div>
+            </div>
+
             </div>
             <li className="">
               <RiMessage2Fill className="bg-gray-400 p-1 text-3xl rounded-full hover:bg-ctm5 cursor-pointer duration-300" />
@@ -54,12 +59,17 @@ const TheNavbar = () => {
 
           <div className="items-center flex">
             <button type="button" className=" md:hidden ">
-              <MdMenu className=" bg-gray-400 p-1 text-3xl rounded-full hover:bg-ctm5 cursor-pointer duration-300 " />
+              <MdMenu className=" bg-gray-400 p-1 text-3xl rounded-full hover:bg-ctm5 cursor-pointer duration-300 sm:ml-2" />
             </button>
           </div>
         </div>
+
+        
       </div>
+
+
     </nav>
+
   );
 };
 
