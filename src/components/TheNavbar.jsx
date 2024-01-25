@@ -23,9 +23,9 @@ const TheNavbar = () => {
 
         <div className="hidden md:block">
           <ul className="flex gap-x-6 cursor-pointer">
-            <li className="hover:text-ctm5 font-bold">Home</li>
-            <li className="hover:text-ctm5 font-bold">About</li>
-            <li className="hover:text-ctm5 font-bold">Contact</li>
+            <Link to={"/"}><li className="hover:text-ctm5 font-bold">Home</li></Link>
+            <Link to={"/about"}><li className="hover:text-ctm5 font-bold">About</li></Link>
+            <Link to={"/contact"}><li className="hover:text-ctm5 font-bold">Contact</li></Link>
           </ul>
         </div>
 
