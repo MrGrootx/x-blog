@@ -1,4 +1,3 @@
-// import { Link } from "react-router-dom";
 import { RiMessage2Fill } from "react-icons/ri";
 import { FaBell } from "react-icons/fa";
 import { IoSearch } from "react-icons/io5";
@@ -89,7 +88,6 @@ const TheNavbar = () => {
 
         {/* What this line does is if we click the nav it will set setMenuOpen() to false ->  onClick={() => setMenuOpen(!menuOpen)} */}
         <div className="w-full h-[500px] bg-ctm2 rounded-b-md">
-          {/* <motion.div initial={{ x: 100 }} animate={{ x: -0 }}> */}
           <ul className="gap-x-6 cursor-pointer w-full text-center">
             <Link to={"/"} onClick={() => setMenuOpen(!menuOpen)}>
               <li className="hover:text-ctm5 font-bold py-5">Home</li>
