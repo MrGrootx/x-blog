@@ -1,6 +1,7 @@
 import img from "../assets/home/2.png";
 import Typed from "typed.js";
 import React from "react";
+import BlogPage from "./BlogPage";
 const Home = () => {
   const el = React.useRef(null);
 
@@ -18,6 +19,7 @@ const Home = () => {
   }, []);
 
   return (
+    <div>
     <main className="bg-ctm3 md:w-screen w-full xl:h-[600px] h-screen p-6 xl:p-0">
       <section className=" container mx-auto pt-12 grid grid-cols-1  xl:px-0">
         <div className="flex justify-center border px-4 border-np1 shadow-[rgba(17,_17,_26,_0.1)_0px_0px_3px] shadow-np2">
@@ -38,8 +40,10 @@ const Home = () => {
           </div>
         </div>
       </section>
-      
+     
     </main>
+    <BlogPage />
+    </div>
   );
   
 };
