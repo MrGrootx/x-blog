@@ -5,7 +5,8 @@ export default {
     extend: {
       fontFamily: {
         Roboto: ["Roboto Mono", "monospace"],
-        Viga: ['Viga', 'sans-serif']
+        Viga: ['Viga', 'sans-serif'],
+        Poor : ['Poor ', 'system-ui']
       },
       colors: {
         ctm1: "#F1F6F9",
@@ -13,6 +14,8 @@ export default {
         ctm3: "#212A3E",
         ctm4: "#9BA4B5",
         ctm5: "#00B8A9",
+        np1: "#24a492",
+        np2: "#35ac9b",
       },
       
     },
