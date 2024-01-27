@@ -16,7 +16,7 @@ const TheNavbar = () => {
   return (
     <nav className="">
       <div className="sm:flex sm:justify-between items-center justify-end p-5 bg-ctm3">
-        <div className="flex justify-center items-center gap-x-2">
+        <div className="flex justify-center items-center gap-x-2 mb-4 md:mb-0">
           <img src={logo} alt="logo" className="w-8" />
           <h3 className="font-Viga text-2xl">Blog</h3>
         </div>
