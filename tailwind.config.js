@@ -15,6 +15,8 @@ export default {
         ctm4: "#9BA4B5",
         ctm5: "#00B8A9",
         ctm6: "#424769",
+        ctm7: "#232D3F",
+        ctm8: "#161A30",
         np1: "#24a492",
         np2: "#35ac9b",
       },
