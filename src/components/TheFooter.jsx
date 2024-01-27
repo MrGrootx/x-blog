@@ -1,10 +1,11 @@
+import BottomFooter from "./bottomFooter";
+
 const TheFooter = () => {
   return (
     <footer className="bg-white dark:bg-gray-900">
       <div className="container px-6 py-12 mx-auto">
-
         <div className="grid grid-cols-2 gap-6 mt-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
-        <div>
+          <div>
             <h3 className="text-sm font-medium text-gray-500 dark:text-gray-400">
               Legal
             </h3>
@@ -28,7 +29,6 @@ const TheFooter = () => {
               >
                 Government
               </a>
-              
             </div>
           </div>
 
@@ -56,7 +56,6 @@ const TheFooter = () => {
               >
                 Government
               </a>
-              
             </div>
           </div>
 
@@ -84,7 +83,6 @@ const TheFooter = () => {
               >
                 Government
               </a>
-              
             </div>
           </div>
 
@@ -112,7 +110,6 @@ const TheFooter = () => {
               >
                 Government
               </a>
-              
             </div>
           </div>
 
@@ -140,7 +137,6 @@ const TheFooter = () => {
               >
                 Government
               </a>
-              
             </div>
           </div>
 
@@ -168,14 +164,14 @@ const TheFooter = () => {
               >
                 Government
               </a>
-              
             </div>
           </div>
         </div>
 
         <hr className="my-6 border-gray-200 md:my-10 dark:border-gray-700" />
-         {/* Bottom Footer */}
-         
+        {/* Bottom Footer */}
+
+        <BottomFooter />
       </div>
     </footer>
   );
