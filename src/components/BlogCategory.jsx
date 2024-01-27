@@ -1,6 +1,6 @@
 const BlogCategory = () => {
   return (
-    <section>
+    <section className="">
       <h5 className="pt-4 font-bold text-ctm5 text-xl">Categories</h5>
 
       <main className="grid md:grid-cols-4 2xl:grid-cols-9 grid-cols-1 w-full gap-y-2 mt-4 gap-x-3">
