@@ -1,55 +1,81 @@
 const BlogCategory = () => {
-   return (
+  return (
+    <section>
+      <h5 className="pt-4 font-bold text-ctm5 text-xl">Categories</h5>
 
-       <section>
+      <main className="grid grid-cols-9 w-full gap-y-2 mt-4 gap-x-3">
+        
+      <div className="mx-auto bg-ctm6  overflow-ellipsis overflow-hidden   hover:shadow-[0px_1.0px_0px_0px_#f7fafc] duration-200 rounded  w-full text-center">
+          <button type="button" className="px-6 py-2 ">
+            awd
+          </button>
+        </div>
+        <div className="mx-auto bg-ctm6  overflow-ellipsis overflow-hidden   hover:shadow-[0px_1.0px_0px_0px_#f7fafc] duration-200 rounded  w-full text-center">
+          <button type="button" className="px-6 py-2 ">
+            Development
+            </button>
+        </div>
 
-<h5 className="pt-4 font-bold text-ctm5 text-xl">Categories</h5>
-         <div className="grid grid-cols-8 gap-y-3 mt-3 mx-auto">
-    
-            <div className="mx-auto">
-              <button type="button" className="border border-gray-200 border-opacity-70 text-center rounded font-semibold bg-ctm1 text-ctm3 p-1 px-8 shadow hover:shadow-gray-200 transition-all duration-200">Technology</button>
-            </div>
-            <div className="mx-auto">
-              <button type="button" className="border border-gray-200 border-opacity-70 text-center rounded font-semibold bg-ctm1 text-ctm3 p-1 px-8 shadow hover:shadow-gray-200 transition-all duration-200">Technology</button>
-            </div>
-            <div className="mx-auto">
-              <button type="button" className="border border-gray-200 border-opacity-70 text-center rounded font-semibold bg-ctm1 text-ctm3 p-1 px-8 shadow hover:shadow-gray-200 transition-all duration-200">Technology</button>
-            </div>
-            <div className="mx-auto">
-              <button type="button" className="border border-gray-200 border-opacity-70 text-center rounded font-semibold bg-ctm1 text-ctm3 p-1 px-8 shadow hover:shadow-gray-200 transition-all duration-200">Technology</button>
-            </div>
-            <div className="mx-auto">
-              <button type="button" className="border border-gray-200 border-opacity-70 text-center rounded font-semibold bg-ctm1 text-ctm3 p-1 px-8 shadow hover:shadow-gray-200 transition-all duration-200">Technology</button>
-            </div>
-            <div className="mx-auto">
-              <button type="button" className="border border-gray-200 border-opacity-70 text-center rounded font-semibold bg-ctm1 text-ctm3 p-1 px-8 shadow hover:shadow-gray-200 transition-all duration-200">Technology</button>
-            </div>
-            <div className="mx-auto">
-              <button type="button" className="border border-gray-200 border-opacity-70 text-center rounded font-semibold bg-ctm1 text-ctm3 p-1 px-8 shadow hover:shadow-gray-200 transition-all duration-200">Technology</button>
-            </div>
-            <div className="mx-auto">
-              <button type="button" className="border border-gray-200 border-opacity-70 text-center rounded font-semibold bg-ctm1 text-ctm3 p-1 px-8 shadow hover:shadow-gray-200 transition-all duration-200">Technology</button>
-            </div>
-            <div className="mx-auto">
-              <button type="button" className="border border-gray-200 border-opacity-70 text-center rounded font-semibold bg-ctm1 text-ctm3 p-1 px-8 shadow hover:shadow-gray-200 transition-all duration-200">Technology</button>
-            </div>
-            <div className="mx-auto">
-              <button type="button" className="border border-gray-200 border-opacity-70 text-center rounded font-semibold bg-ctm1 text-ctm3 p-1 px-8 shadow hover:shadow-gray-200 transition-all duration-200">Technology</button>
-            </div>
-            <div className="mx-auto">
-              <button type="button" className="border border-gray-200 border-opacity-70 text-center rounded font-semibold bg-ctm1 text-ctm3 p-1 px-8 shadow hover:shadow-gray-200 transition-all duration-200">Technology</button>
-            </div>
-            <div className="mx-auto">
-              <button type="button" className="border border-gray-200 border-opacity-70 text-center rounded font-semibold bg-ctm1 text-ctm3 p-1 px-8 shadow hover:shadow-gray-200 transition-all duration-200">Technology</button>
-            </div>
-            
-           
-            
-           
-            
-         </div>
-       </section>
-   );
- };
- 
- export default BlogCategory;
+        <div className="mx-auto bg-ctm6  overflow-ellipsis overflow-hidden   hover:shadow-[0px_1.0px_0px_0px_#f7fafc] duration-200 rounded  w-full text-center">
+          <button type="button" className="px-6 py-2 ">
+            Development
+            </button>
+        </div>
+
+
+        <div className="mx-auto bg-ctm6  overflow-ellipsis overflow-hidden   hover:shadow-[0px_1.0px_0px_0px_#f7fafc] duration-200 rounded  w-full text-center">
+          <button type="button" className="px-6 py-2 ">
+            Development
+            </button>
+        </div>
+
+
+        <div className="mx-auto bg-ctm6  overflow-ellipsis overflow-hidden   hover:shadow-[0px_1.0px_0px_0px_#f7fafc] duration-200 rounded  w-full text-center">
+          <button type="button" className="px-6 py-2 ">
+            Development
+            </button>
+        </div>
+
+
+        <div className="mx-auto bg-ctm6  overflow-ellipsis overflow-hidden   hover:shadow-[0px_1.0px_0px_0px_#f7fafc] duration-200 rounded  w-full text-center">
+          <button type="button" className="px-6 py-2 ">
+            Development
+            </button>
+        </div>
+
+
+        <div className="mx-auto bg-ctm6  overflow-ellipsis overflow-hidden   hover:shadow-[0px_1.0px_0px_0px_#f7fafc] duration-200 rounded  w-full text-center">
+          <button type="button" className="px-6 py-2 ">
+            Development
+            </button>
+        </div>
+
+        <div className="mx-auto bg-ctm6  overflow-ellipsis overflow-hidden   hover:shadow-[0px_1.0px_0px_0px_#f7fafc] duration-200 rounded  w-full text-center">
+          <button type="button" className="px-6 py-2 ">
+            Development
+            </button>
+        </div>
+
+        <div className="mx-auto bg-ctm6  overflow-ellipsis overflow-hidden   hover:shadow-[0px_1.0px_0px_0px_#f7fafc] duration-200 rounded  w-full text-center">
+          <button type="button" className="px-6 py-2 ">
+            Development
+            </button>
+        </div>
+
+        <div className="mx-auto bg-ctm6  overflow-ellipsis overflow-hidden   hover:shadow-[0px_1.0px_0px_0px_#f7fafc] duration-200 rounded  w-full text-center">
+          <button type="button" className="px-6 py-2 ">
+            Development
+            </button>
+        </div>
+
+
+
+
+        
+
+      </main>
+    </section>
+  );
+};
+
+export default BlogCategory;
