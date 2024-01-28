@@ -11,10 +11,9 @@ import { MdLocationPin } from "react-icons/md";
 import { useParams } from "react-router-dom";
 import NoDataPage from "../components/NoDataPage";
 
-
-
 const PostDetails = () => {
   const { id } = useParams();
+  // console.log(id);
 
   // Logic For Post Filter
   let Arr = [];
@@ -34,17 +33,19 @@ const PostDetails = () => {
   // console.log(Arr.length == 0);
   if (Arr.length == 0) {
     // console.log("no Data");
-    return <div>
-      <NoDataPage />
-    </div>
+    return (
+      <div>
+        <NoDataPage />
+      </div>
+    );
   } else {
     const appendDiv = Arr.map((data, index) => {
-      console.log(data);
+      // console.log(data);
       return (
         <div key={index}>
           <div className="">
             <div className="flex justify-center">
-            <img src={data.image} alt="blogImg" className="object-cover" />
+              <img src={data.image} alt="blogImg" className="object-cover" />
             </div>
             <div className="mt-16">
               <h1 className="font-semibold md:text-2xl text-xl lg:text-4xl  text-ctm1">
@@ -58,6 +59,7 @@ const PostDetails = () => {
                   </span>
                   <span>{data.author}</span>
                 </div>
+
                 <div className="flex items-center gap-x-1">
                   <span>
                     <FaCalendarDays className="text-cyan-600" />
@@ -67,9 +69,7 @@ const PostDetails = () => {
               </div>
 
               <div className="px-2 ">
-                <p className="text-gray-200 ml-5 mt-6">
-                  {data.content}
-                </p>
+                <p className="text-gray-200 ml-5 mt-6">{data.content}</p>
                 <p className="text-gray-200 ml-5 mt-6">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Pariatur numquam dolore officiis consectetur itaque earum ipsa
@@ -115,6 +115,7 @@ const PostDetails = () => {
                           alt="logoPost"
                         />
                       </div>
+
                       <div className="ml-1">
                         <div>
                           <h3 className="ml-3 font-bold">Mr Groot</h3>

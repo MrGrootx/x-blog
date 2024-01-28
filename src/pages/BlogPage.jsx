@@ -15,7 +15,7 @@ const BlogPage = () => {
       <div key={data.id}>
         <div className=" xl:flex mt-3 xl:mt-0 bg-ctm8 p-3 rounded mb-3">
           <div className="my-auto">
-            <img src={data.image ? data.image : blogimg} alt="blogImg" className="object-cover" />
+            <img src={data.image ? data.image : blogimg} alt="blogImg" className="object-cover md:max-w-[325px]" />
           </div>
           <div className="mx-auto">
             <div className="font-semibold text-xl p-3 hover:underline">
@@ -23,7 +23,7 @@ const BlogPage = () => {
                 {data.title}
               </Link>
             </div>
-            <p className="p-4 xl:p-2 cursor-pointer text-gray-400">
+            <p className="p-4 xl:p-2 cursor-pointer text-gray-400 md:ml-5">
               {data.content}
             </p>
 

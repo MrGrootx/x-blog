@@ -1,7 +1,7 @@
 import profile from "../assets/img/profile.png";
 const About = () => {
   return (
-    <section className="h-screen bg-ctm3  flex ">
+    <section className="h-screen bg-ctm7  flex ">
       <main className=" container mx-auto  my-auto">
         <div className="grid md:grid-cols-2 grid-cols-1 px-4 md:px-0">
           <div className="flex justify-center">
