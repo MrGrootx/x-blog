@@ -3,12 +3,12 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
-
 import About from "./pages/About.jsx";
 import Home from "./pages/Home.jsx";
 import GuestLayout from "./layouts/Guest.jsx";
 import Contact from "./pages/Contact.jsx";
 import Error from "./pages/Error.jsx";
+import PostDetails from "./pages/PostDetails.jsx";
 
 const router = createBrowserRouter([
   {
@@ -25,10 +25,14 @@ const router = createBrowserRouter([
       },
       {
         path: "/contact",
-        element: <Contact/>
-      }
+        element: <Contact />,
+      },
+      {
+        path: "/post/:id",
+        element: <PostDetails />,
+      },
     ],
-    errorElement: <Error />
+    errorElement: <Error />,
   },
 ]);
 

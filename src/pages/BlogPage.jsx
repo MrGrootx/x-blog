@@ -7,6 +7,7 @@ import { FaRegClock } from "react-icons/fa6";
 import BlogTags from "../layouts/BlogTags";
 
 import datas from "../data/data";
+import { Link } from "react-router-dom";
 
 const BlogPage = () => {
   const posts = datas.map((data) => {
@@ -18,9 +19,9 @@ const BlogPage = () => {
           </div>
           <div className="mx-auto">
             <div className="font-semibold text-xl p-3 hover:underline">
-              <a href="http://" target="_blank" rel="noopener noreferrer">
+              <Link to={"/post/"+data.id} rel="noopener noreferrer">
                 {data.title}
-              </a>
+              </Link>
             </div>
             <p className="p-4 xl:p-2 cursor-pointer text-gray-400">
               {data.content}
