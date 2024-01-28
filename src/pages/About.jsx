@@ -3,7 +3,7 @@ const About = () => {
   return (
     <section className="h-screen bg-ctm3  flex ">
       <main className=" container mx-auto  my-auto">
-        <div className="grid grid-cols-2">
+        <div className="grid md:grid-cols-2 grid-cols-1 px-4 md:px-0">
           <div className="flex justify-center">
             <img src={profile} className="rounded w-[500px]" alt="profile" />
           </div>
@@ -21,7 +21,7 @@ const About = () => {
                 humour,
               </p>
             </div>
-            <div className="mt-3">
+            <div className="mt-3 hidden md:block">
               <span className="font-semibold text-xl text-red-600">Stacks</span>
               <ul className="uppercase">
                 <li className="border border-ctm5  inline-block p-1 mr-2 ml-1 mt-2">
