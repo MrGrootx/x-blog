@@ -9,6 +9,9 @@ import { FaCalendarDays } from "react-icons/fa6";
 import { MdLocationPin } from "react-icons/md";
 
 import { useParams } from "react-router-dom";
+import NoDataPage from "../components/NoDataPage";
+
+
 
 const PostDetails = () => {
   const { id } = useParams();
@@ -31,7 +34,9 @@ const PostDetails = () => {
   // console.log(Arr.length == 0);
   if (Arr.length == 0) {
     // console.log("no Data");
-    return <h3>no data</h3>;
+    return <div>
+      <NoDataPage />
+    </div>
   } else {
     const appendDiv = Arr.map((data, index) => {
       console.log(data);

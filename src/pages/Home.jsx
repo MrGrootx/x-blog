@@ -2,7 +2,7 @@ import img from "../assets/home/2.png";
 import Typed from "typed.js";
 import React from "react";
 import BlogPage from "./BlogPage";
-import TheFooter from "../components/TheFooter";
+// import TheFooter from "../components/TheFooter";
 
 const Home = () => {
   const el = React.useRef(null);
@@ -49,7 +49,7 @@ const Home = () => {
       </main>
 
       <BlogPage />
-      <TheFooter />
+      {/* <TheFooter /> */}
     </div>
   );
 };
