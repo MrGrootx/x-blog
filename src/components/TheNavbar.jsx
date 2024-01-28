@@ -10,17 +10,19 @@ import { useState } from "react";
 
 import { HiOutlineXMark } from "react-icons/hi2";
 import { Link } from "react-router-dom";
+
 const TheNavbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <nav className="">
       <div className="sm:flex sm:justify-between items-center justify-end p-5 bg-ctm3">
+      <Link to="/" className="cursor-pointer">
         <div className="flex justify-center items-center gap-x-2 mb-4 md:mb-0">
-          <img src={logo} alt="logo" className="w-8" />
+        <img src={logo} alt="logo" className="w-8" />
           <h3 className="font-Viga text-2xl">Blog</h3>
         </div>
-
+        </Link>
         <div className="hidden md:block">
           <ul className="flex gap-x-6 cursor-pointer">
             <Link to={"/"}><li className="hover:text-ctm5 font-bold">Home</li></Link>
