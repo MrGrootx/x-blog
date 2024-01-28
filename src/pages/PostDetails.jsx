@@ -9,6 +9,7 @@ import { FaCalendarDays } from "react-icons/fa6";
 import { MdLocationPin } from "react-icons/md";
 
 import { useParams } from "react-router-dom";
+
 const PostDetails = () => {
   const { id } = useParams();
 
@@ -47,9 +48,9 @@ const PostDetails = () => {
     // Return For elements
     return (
       <section className="bg-[#283043] w-full md:p-6 xl:p-0">
-        <main className="bg-ctm9">
+        <main className="pb-20">
           <div className="container mx-auto border-l border-r border-gray-700 pt-20">
-            <main className="xl:flex gap-x-5 p-2 mt-6  grid grid-cols-2 border">
+            <main className="xl:flex gap-x-5 p-2 mt-6  md:grid grid-cols-2">
               <section className="max-w-96 md:max-w-[800px] w-full text-black mx-auto ">
                 <div className="">
                   <div className="flex justify-center">
@@ -60,7 +61,7 @@ const PostDetails = () => {
                     />
                   </div>
                   <div className="mt-16">
-                    <h1 className="font-semibold text-4xl text-ctm1">
+                    <h1 className="font-semibold md:text-2xl text-xl lg:text-4xl  text-ctm1">
                       My work from home workstation
                     </h1>
                     {/* ICONS */}
@@ -107,7 +108,7 @@ const PostDetails = () => {
                 </div>
               </section>
 
-              <section className="max-w-2xl  md:max-w-[500px]   w-full text-black mx-auto ">
+              <section className="max-w-2xl  md:max-w-[500px] w-full text-black mx-auto hidden md:block">
                 {/* Follow Page */}
                 <div className="bg-ctm10 rounded">
                   <div className="mx-3">
@@ -167,7 +168,7 @@ const PostDetails = () => {
                   <div className="p-3">
                     <div className="flex justify-center">
                       <img src={logo} alt="logo" className="w-8" />
-                      <h3 className="font-Viga text-2xl">Blog</h3>
+                      <h3 className="font-Viga text-2xl text-gray-200">Blog</h3>
                     </div>
                     <div className="text-center text-ctm1 mt-3">
                       <p>
@@ -182,6 +183,8 @@ const PostDetails = () => {
             </main>
           </div>
         </main>
+
+
       </section>
     );
   }
