@@ -1,6 +1,6 @@
 import dbData from "../data/data";
 
-import blogimg from "../assets/blog/blog1.webp";
+// import blogimg from "../assets/blog/blog1.webp";
 import logo from "../assets/img/icon.png";
 import logo2 from "../assets/img/profile.png";
 
@@ -34,17 +34,57 @@ const PostDetails = () => {
     return <h3>no data</h3>;
   } else {
     const appendDiv = Arr.map((data, index) => {
+      console.log(data);
       return (
         <div key={index}>
-          <h3>{data.title}</h3>
-          <h3>content</h3>
-          <h3>author</h3>
+          <div className="">
+            <div className="flex justify-center">
+            <img src={data.image} alt="blogImg" className="object-cover" />
+            </div>
+            <div className="mt-16">
+              <h1 className="font-semibold md:text-2xl text-xl lg:text-4xl  text-ctm1">
+                {data.title}
+              </h1>
+              {/* ICONS */}
+              <div className="flex gap-x-3 text-gray-100 mt-3">
+                <div className="flex items-center gap-x-1 ">
+                  <span>
+                    <FaUser className="text-green-600" />
+                  </span>
+                  <span>{data.author}</span>
+                </div>
+                <div className="flex items-center gap-x-1">
+                  <span>
+                    <FaCalendarDays className="text-cyan-600" />
+                  </span>
+                  <span>{data.date}</span>
+                </div>
+              </div>
+
+              <div className="px-2 ">
+                <p className="text-gray-200 ml-5 mt-6">
+                  {data.content}
+                </p>
+                <p className="text-gray-200 ml-5 mt-6">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Pariatur numquam dolore officiis consectetur itaque earum ipsa
+                  id, eveniet aperiam dolorem maiores ipsam consequatur
+                  exercitationem corporis, tenetur veniam quia hic optio!
+                </p>
+
+                <p className="text-gray-200 ml-5 mt-6">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Pariatur numquam dolore officiis consectetur itaque earum ipsa
+                  id, eveniet aperiam dolorem maiores ipsam consequatur
+                  exercitationem corporis, tenetur veniam quia hic optio!
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       );
     });
-    {
-      appendDiv;
-    }
+
     // Return For elements
     return (
       <section className="bg-[#283043] w-full md:p-6 xl:p-0">
@@ -52,60 +92,7 @@ const PostDetails = () => {
           <div className="container mx-auto border-l border-r border-gray-700 pt-20">
             <main className="xl:flex gap-x-5 p-2 mt-6  md:grid grid-cols-2">
               <section className="max-w-96 md:max-w-[800px] w-full text-black mx-auto ">
-                <div className="">
-                  <div className="flex justify-center">
-                    <img
-                      src={blogimg}
-                      className="w-[700px] object-cover rounded-md"
-                      alt="blogimg"
-                    />
-                  </div>
-                  <div className="mt-16">
-                    <h1 className="font-semibold md:text-2xl text-xl lg:text-4xl  text-ctm1">
-                      My work from home workstation
-                    </h1>
-                    {/* ICONS */}
-                    <div className="flex gap-x-3 text-gray-100 mt-3">
-                      <div className="flex items-center gap-x-1 ">
-                        <span>
-                          <FaUser className="text-green-600" />
-                        </span>
-                        <span>Mr Groot</span>
-                      </div>
-                      <div className="flex items-center gap-x-1">
-                        <span>
-                          <FaCalendarDays className="text-cyan-600" />
-                        </span>
-                        <span>January 24, 2021</span>
-                      </div>
-                    </div>
-
-                    <div className="px-2 ">
-                      <p className="text-gray-200 ml-5 mt-6">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Pariatur numquam dolore officiis consectetur
-                        itaque earum ipsa id, eveniet aperiam dolorem maiores
-                        ipsam consequatur exercitationem corporis, tenetur
-                        veniam quia hic optio!
-                      </p>
-                      <p className="text-gray-200 ml-5 mt-6">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Pariatur numquam dolore officiis consectetur
-                        itaque earum ipsa id, eveniet aperiam dolorem maiores
-                        ipsam consequatur exercitationem corporis, tenetur
-                        veniam quia hic optio!
-                      </p>
-
-                      <p className="text-gray-200 ml-5 mt-6">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Pariatur numquam dolore officiis consectetur
-                        itaque earum ipsa id, eveniet aperiam dolorem maiores
-                        ipsam consequatur exercitationem corporis, tenetur
-                        veniam quia hic optio!
-                      </p>
-                    </div>
-                  </div>
-                </div>
+                {appendDiv}
               </section>
 
               <section className="max-w-2xl  md:max-w-[500px] w-full text-black mx-auto hidden md:block">
@@ -132,20 +119,31 @@ const PostDetails = () => {
                             <MdLocationPin className="text-teal-400" />
                           </h3>
 
-                          <span className="text-gray-200 text-sm">Los Angeles, CA, USA</span>
+                          <span className="text-gray-200 text-sm">
+                            Los Angeles, CA, USA
+                          </span>
                         </div>
                       </div>
                     </div>
                     {/* Buttons */}
                     <div className="p-4">
-                    <div className="flex justify-center mt-3">
-                      <button type="button" className="bg-[#05BFDB] hover:bg-[#37b4c7] duration-700 font-bold px-32 py-1 rounded">Follow</button>
+                      <div className="flex justify-center mt-3">
+                        <button
+                          type="button"
+                          className="bg-[#05BFDB] hover:bg-[#37b4c7] duration-700 font-bold px-32 py-1 rounded"
+                        >
+                          Follow
+                        </button>
+                      </div>
+                      <div className="flex justify-center mt-3">
+                        <button
+                          type="button"
+                          className="bg-[#05BFDB] bg-opacity-5 border border-[#05BFDB] text-ctm1 hover:text-ctm3 hover:bg-[#37b4c7] duration-700 font-bold px-32 py-1 rounded"
+                        >
+                          Message
+                        </button>
+                      </div>
                     </div>
-                    <div className="flex justify-center mt-3">
-                      <button type="button" className="bg-[#05BFDB] bg-opacity-5 border border-[#05BFDB] text-ctm1 hover:text-ctm3 hover:bg-[#37b4c7] duration-700 font-bold px-32 py-1 rounded">Message</button>
-                    </div>
-                    </div>
-
                   </div>
                 </div>
 
@@ -183,8 +181,6 @@ const PostDetails = () => {
             </main>
           </div>
         </main>
-
-
       </section>
     );
   }
