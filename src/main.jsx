@@ -10,7 +10,7 @@ import Contact from "./pages/Contact.jsx";
 import Error from "./pages/Error.jsx";
 import PostDetails from "./pages/PostDetails.jsx";
 //const router2 = createBrowserRouter(routes, { basename: import.meta.env.DEV ? '/' : '/react-vite-gh-pages/' })
-const router = createBrowserRouter(
+const routers = createBrowserRouter(
   [
   {
     path: "/",
@@ -36,6 +36,8 @@ const router = createBrowserRouter(
     errorElement: <Error />,
   },
 ]);
+
+const router = createBrowserRouter(routers, { basename: import.meta.env.DEV ? '/' : '/x-blog/' });
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <RouterProvider router={router} />
