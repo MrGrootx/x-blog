@@ -4,6 +4,7 @@ import React from "react";
 import BlogPage from "./BlogPage";
 // import TheFooter from "../components/TheFooter";
 
+
 const Home = () => {
   const el = React.useRef(null);
   // Type Animation

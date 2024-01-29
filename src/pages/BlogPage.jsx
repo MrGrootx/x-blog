@@ -9,17 +9,30 @@ import BlogTags from "../layouts/BlogTags";
 import datas from "../data/data";
 import { Link } from "react-router-dom";
 
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+import { useEffect } from "react";
+
 const BlogPage = () => {
+  // Animation
+  useEffect(() => {
+    AOS.init({ duration: "1000" });
+  }, []);
+
   const posts = datas.map((data) => {
     return (
-      <div key={data.id}>
+      <div key={data.id} data-aos="fade-up" data-aos-anchor-placement="top-bottom">
         <div className=" xl:flex mt-3 xl:mt-0 bg-ctm8 p-3 rounded mb-3">
           <div className="my-auto">
-            <img src={data.image ? data.image : blogimg} alt="blogImg" className="object-cover md:max-w-[325px]" />
+            <img
+              src={data.image ? data.image : blogimg}
+              alt="blogImg"
+              className="object-cover md:max-w-[325px]"
+            />
           </div>
           <div className="mx-auto">
             <div className="font-semibold text-xl p-3 hover:underline">
-              <Link to={"/post/"+data.id} rel="noopener noreferrer">
+              <Link to={"/post/" + data.id} rel="noopener noreferrer">
                 {data.title}
               </Link>
             </div>
