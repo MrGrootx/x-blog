@@ -29,7 +29,7 @@ const datas = [
       author: "Sophia Taylor",
     date: "2024-01-27",
     image: "https://i.imgur.com/DyPnLwE.jpeg",
-    category: "Health and Fitness",
+    category: "Fitness",
     featured: true,
   },
   {
