@@ -6,21 +6,21 @@ const datas = [
       "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. ...",
     author: "John Doe",
     date: "2024-01-25",
-    image: "../public/blog/2.avif",
+    image: "public/blog/blog1.webp",
     category: "Blogging",
     featured: true,
   },
-  // {
-  //   id: 2,
-  //   title: "10 Tips for Effective Writing",
-  //   content:
-  //     "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. ...",
-  //   author: "Jane Smith",
-  //   date: "2024-01-26",
-  //   image: "/src/assets/blog/3.webp",
-  //   category: "Writing Tips",
-  //   featured: false,
-  // },
+  {
+    id: 2,
+    title: "10 Tips for Effective Writing",
+    content:
+      "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. ...",
+    author: "Jane Smith",
+    date: "2024-01-26",
+    image: "public/blog/2.avif",
+    category: "Writing Tips",
+    featured: false,
+  },
   // {
   //   id: 3,
   //   title: "The Importance of Regular Exercise",
