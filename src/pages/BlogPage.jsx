@@ -1,6 +1,6 @@
 import BlogCategory from "../components/BlogCategory";
 
-import blogimg from "../assets/blog/blog1.webp";
+// import blogimg from "../assets/blog/blog1.webp";
 import logo from "../assets/img/profile.png";
 
 import { FaRegClock } from "react-icons/fa6";
@@ -25,7 +25,7 @@ const BlogPage = () => {
         <div className=" xl:flex mt-3 xl:mt-0 bg-ctm8 p-3 rounded mb-3">
           <div className="my-auto">
             <img
-              src={data.image ? data.image : blogimg}
+              src={data.image}
               alt="blogImg"
               className="object-cover md:max-w-[325px]"
             />
