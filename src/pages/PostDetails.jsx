@@ -45,7 +45,7 @@ const PostDetails = () => {
         <div key={index}>
           <div className="">
             <div className="flex justify-center">
-              <img src={`./x-blog${data.image}`} alt="blogImg" className="object-cover" />
+              <img src={data.image} alt="blogImg" className="object-cover" />
             </div>
             <div className="mt-16">
               <h1 className="font-semibold md:text-2xl text-xl lg:text-4xl  text-ctm1">
