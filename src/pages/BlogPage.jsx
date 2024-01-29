@@ -25,7 +25,7 @@ const BlogPage = () => {
         <div className=" xl:flex mt-3 xl:mt-0 bg-ctm8 p-3 rounded mb-3">
           <div className="my-auto">
             <img
-              src={data.image}
+              src={`./x-blog/${data.image}`}
               alt="blogImg"
               className="object-cover md:max-w-[325px]"
             />
