@@ -9,8 +9,9 @@ import GuestLayout from "./layouts/Guest.jsx";
 import Contact from "./pages/Contact.jsx";
 import Error from "./pages/Error.jsx";
 import PostDetails from "./pages/PostDetails.jsx";
-
-const router = createBrowserRouter([
+//const router2 = createBrowserRouter(routes, { basename: import.meta.env.DEV ? '/' : '/react-vite-gh-pages/' })
+const router = createBrowserRouter(
+  [
   {
     path: "/",
     element: <GuestLayout />,
@@ -39,3 +40,16 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")).render(
   <RouterProvider router={router} />
 );
+
+
+
+// import { createBrowserRouter, RouterProvider, Link } from 'react-router-dom'
+
+// function App() {
+//  // your routes here
+//   // const routes = [...]
+
+//   const router = createBrowserRouter(routes, { basename: import.meta.env.DEV ? '/' : '/react-vite-gh-pages/' })
+
+//   return <RouterProvider router={router} />
+// }

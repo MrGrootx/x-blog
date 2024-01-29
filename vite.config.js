@@ -20,3 +20,5 @@ export default defineConfig(({ command }) => {
 
   return config
 })
+
+// /react-vite-gh-pages/
