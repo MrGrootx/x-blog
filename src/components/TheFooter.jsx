@@ -1,4 +1,5 @@
-import BottomFooter from "./bottomFooter";
+import BottomFooter from "./BottomFoot";
+
 
 const TheFooter = () => {
   return (
@@ -169,9 +170,9 @@ const TheFooter = () => {
         </div>
 
         <hr className="my-6 border-gray-200 md:my-10 dark:border-gray-700" />
-        {/* Bottom Footer */}
 
-        <BottomFooter />
+    <BottomFooter/>
+        
       </div>
     </footer>
   );
