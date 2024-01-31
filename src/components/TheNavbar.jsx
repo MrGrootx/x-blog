@@ -15,7 +15,7 @@ const TheNavbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="">
+    <nav className=" sticky top-0 z-40">
       <div className="sm:flex sm:justify-between items-center justify-end p-5 bg-ctm3">
       <Link to="/" className="cursor-pointer">
         <div className="flex justify-center items-center gap-x-2 mb-4 md:mb-0">
