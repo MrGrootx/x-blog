@@ -4,7 +4,7 @@ import BlogCategory from "../components/BlogCategory";
 import logo from "../assets/img/profile.png";
 
 import { FaRegClock } from "react-icons/fa6";
-import BlogTags from "../layouts/BlogTags";
+// import BlogTags from "../layouts/BlogTags";
 
 import datas from "../data/data";
 import { Link } from "react-router-dom";
@@ -23,15 +23,15 @@ const BlogPage = () => {
     return (
       <div key={data.id} data-aos="fade-up" data-aos-anchor-placement="top-bottom">
         <div className=" xl:flex mt-3 xl:mt-0 bg-ctm8 p-3 rounded mb-3 ">
-          <div className="my-auto  md:flex justify-center lg:flex-none">
+          <div className="my-auto  md:flex justify-center lg:flex-none ">
             <img
               src={data.image}
               alt="blogImg"
-              className="object-cover xl:max-w-[325px]"
+              className="object-cover xl:w-[325px] xl:max-h-[180px]"
             />
           </div>
-          <div className="mx-auto">
-            <div className="font-semibold text-xl p-3 hover:underline  md:text-center xl:text-start">
+          <div className="">
+            <div className="font-semibold text-xl p-3 hover:underline">
               <Link to={"/post/" + data.id} rel="noopener noreferrer" className="">
                 {data.title}
               </Link>
@@ -79,9 +79,9 @@ const BlogPage = () => {
             <BlogCategory />
           </div>
 
-          <main className="xl:flex gap-x-5 p-2 mt-6 mx-auto">
+          <main className=" p-2 mt-6 mx-auto">
             <section className="max-w-96 md:max-w-[700px]  w-full text-black mx-auto">
-              <BlogTags />
+              {/* <BlogTags /> */}
             </section>
 
             <section className="xl:grid grid-cols-1  mx-auto justify-between gap-y-4 mt-4 xl:mt-0">
