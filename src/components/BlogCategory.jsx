@@ -4,7 +4,7 @@ const BlogCategory = () => {
   const D = datas.map((value, index) => {
     return (
       <ul className="" key={index}>
-        <li type="button" className="bg-ctm6 text-center rounded w-full px-2 py-2 overflow-hidden   hover:shadow-[0px_1.0px_0px_0px_#f7fafc] duration-200">
+        <li type="button" className="bg-ctm6 text-center rounded w-full px-2 py-2 overflow-hidden   hover:shadow-[0px_1.0px_0px_0px_#f7fafc] duration-200 cursor-pointer">
           {value.category}
         </li>
       </ul>
