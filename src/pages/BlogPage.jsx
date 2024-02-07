@@ -22,17 +22,17 @@ const BlogPage = () => {
   const posts = datas.map((data) => {
     return (
       <div key={data.id} data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-        <div className=" xl:flex mt-3 xl:mt-0 bg-ctm8 p-3 rounded mb-3">
-          <div className="my-auto">
+        <div className=" xl:flex mt-3 xl:mt-0 bg-ctm8 p-3 rounded mb-3 ">
+          <div className="my-auto  md:flex justify-center lg:flex-none">
             <img
               src={data.image}
               alt="blogImg"
-              className="object-cover md:max-w-[325px]"
+              className="object-cover xl:max-w-[325px]"
             />
           </div>
           <div className="mx-auto">
-            <div className="font-semibold text-xl p-3 hover:underline">
-              <Link to={"/post/" + data.id} rel="noopener noreferrer">
+            <div className="font-semibold text-xl p-3 hover:underline  md:text-center xl:text-start">
+              <Link to={"/post/" + data.id} rel="noopener noreferrer" className="">
                 {data.title}
               </Link>
             </div>
@@ -70,9 +70,9 @@ const BlogPage = () => {
 
   return (
     <main className="">
-      <section className="bg-[#283043] w-full md:p-6 xl:p-0">
-        <div className="md:p-6  container mx-auto my-auto">
-          <div className=" px-3 md:0 pt-4 md:pt-0">
+      <section className="bg-[#283043] w-full md:p-6 xl:p-0 ">
+        <div className="md:p-6  container mx-auto my-auto ">
+          <div className=" px-3 md:0 pt-4 md:pt-0 ">
             <div>
               <h3 className="text-2xl font-semibold">Latest Blog Post</h3>
             </div>
@@ -84,7 +84,7 @@ const BlogPage = () => {
               <BlogTags />
             </section>
 
-            <section className="xl:grid grid-cols-1 mx-auto justify-between gap-y-4 mt-4 xl:mt-0">
+            <section className="xl:grid grid-cols-1  mx-auto justify-between gap-y-4 mt-4 xl:mt-0">
               <div>{posts}</div>
             </section>
           </main>
